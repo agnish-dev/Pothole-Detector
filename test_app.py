@@ -2,7 +2,7 @@ import unittest
 import os
 from utils import check_model_exists, calculate_severity
 
-class TestPatholeDetector(unittest.TestCase):
+class TestPotholeDetector(unittest.TestCase):
     
     def test_model_file_exists(self):
         """Test if the trained YOLOv8 model weights are present."""

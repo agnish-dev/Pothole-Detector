@@ -1,7 +1,7 @@
-# Pathole Detector (Road Damage Detection System)
+# Pothole Detector (Road Damage Detection System)
 
 ## Overview of the Project
-The Pathole Detector is an AI-powered computer vision web application designed to automatically identify and classify road damage. Using a custom-trained YOLOv8 deep learning model trained on a massive 10GB dataset (32,000+ images), this system detects potholes and various cracks in both images and videos. It also calculates the severity of the damage to help prioritize road maintenance.
+The Pothole Detector is an AI-powered computer vision web application designed to automatically identify and classify road damage. Using a custom-trained YOLOv8 deep learning model trained on a massive 10GB dataset (32,000+ images), this system detects potholes and various cracks in both images and videos. It also calculates the severity of the damage to help prioritize road maintenance.
 
 ## Features
 - **YOLOv8 Object Detection:** High-speed, highly accurate detection of 4 classes (Longitudinal Cracks, Transverse Cracks, Alligator Cracks, Potholes).
@@ -20,8 +20,8 @@ The Pathole Detector is an AI-powered computer vision web application designed t
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/agnish-dev/Pathole-Detector.git
-   cd Pathole-Detector
+   git clone https://github.com/agnish-dev/Pothole-Detector.git
+   cd Pothole-Detector
    ```
 
 2. **Create a virtual environment (Recommended):**
