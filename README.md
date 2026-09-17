@@ -51,7 +51,7 @@ This will check if all necessary model weights and configuration files are prese
 
 ## Screenshots
 
-![Pothole Detector Web App](app_screenshot.png)
+![Pothole Detector Web App](app_screenshot_v2.png)
 
 ---
 *Developed by Agnish*
