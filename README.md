@@ -50,6 +50,5 @@ python -m unittest test_app.py
 This will check if all necessary model weights and configuration files are present and functional.
 
 ## Screenshots
-*(Insert screenshots of the working web application here before final submission)*
-- `[Screenshot of Image Detection]`
-- `[Screenshot of Video Processing]`
+
+![Pothole Detector Web App](app_screenshot.png)
