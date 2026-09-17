@@ -45,7 +45,7 @@ if os.path.exists('image.webp'):
 elif os.path.exists('images.jpg'):
     set_background('images.jpg')
 
-st.title("🛣️ Pathole Detecor")
+st.title("🛣️ Pothole Detector")
 st.write("Upload an image or video to detect potholes using YOLOv8.")
 
 # Load the model
