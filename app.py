@@ -21,6 +21,11 @@ def set_background(image_file):
     st.markdown(
         f"""
         <style>
+        /* Hide the Streamlit Deploy button, header, and footer */
+        header {visibility: hidden;}
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        
         .stApp {{
             background-image: url(data:image/{mime_type};base64,{encoded_string});
             background-size: cover;
