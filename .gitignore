@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom ignores
+venv/
+__pycache__/
+dataset/
+runs/
+archive.zip
+kaggle.json
+*.f3d
