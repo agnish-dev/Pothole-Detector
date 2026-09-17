@@ -150,4 +150,23 @@ if uploaded_file is not None:
         cap.release()
         st.success("Video processing complete!")
 
-st.markdown('<br><hr><center>Developed by Agnish</center>', unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        z-index: 100;
+    }
+    </style>
+    <div class="footer">Developed by Agnish</div>
+    """,
+    unsafe_allow_html=True
+)
