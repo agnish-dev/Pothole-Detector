@@ -45,9 +45,7 @@ def set_background(image_file):
         unsafe_allow_html=True
     )
 
-if os.path.exists('image.webp'):
-    set_background('image.webp')
-elif os.path.exists('images.jpg'):
+if os.path.exists('images.jpg'):
     set_background('images.jpg')
 
 st.title("🛣️ Pothole Detector")
