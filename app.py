@@ -144,3 +144,5 @@ if uploaded_file is not None:
             
         cap.release()
         st.success("Video processing complete!")
+
+st.markdown('<br><hr><center>Developed by Agnish</center>', unsafe_allow_html=True)
